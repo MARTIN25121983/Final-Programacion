@@ -1,0 +1,4 @@
+__pycache__/
+venv/
+blacklist.txt
+blacklist_public.txt
