@@ -53,5 +53,7 @@ En la consola podremos verificar todas las conexiones salientes hacia internet, 
 - `blacklist.txt`: IPs que fueron clasificadas como maliciosas.
 - `blacklist_public.txt`: Descarga un listado sobre las IPs publicas maliciosas desde la url https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt
 
+Una aclaracion importante, al momento de ejecutar por primera vez el script no es necesario tener blacklist.txt y blacklist_public.txt ya que el blacklist_public.txt al ejecutar el codigo principa main.py se va a descargar automaticamente y luego cuando al realizar el escaneo se detecta alguna IP maliciosa que fue descargada en el archivo se creara automaticamente el archivo blacklist.txt
+
 ---
 
